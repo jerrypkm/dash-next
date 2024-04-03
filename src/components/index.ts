@@ -1,5 +1,7 @@
-export * from './Sidebar';
-export * from './SidebarMenuItem';
+export * from './commons/Sidebar';
+export * from './commons/SidebarMenuItem';
+export * from './commons/SimpleWidget';
+export * from './commons/WidgetsGrid';
 
 export * from './shopping-cart/CartCounter';
 
