@@ -6,3 +6,4 @@ export * from './commons/WidgetsGrid';
 export * from './shopping-cart/CartCounter';
 
 export * from './pokemons/PokemonsGrid';
+export * from './pokemons/PokemonsFavorites';

@@ -1,8 +1,5 @@
-import { PokemonsGrid } from "@/components";
-import { PokemonsResponse, SimplePokemon } from "@/interfaces";
-import { getPokemons } from "@/services";
-import Image from "next/image";
-
+import { PokemonsFavorites } from "@/components";
+import { IoHeartOutline } from "react-icons/io5";
 
 export const metadata = {
   title: 'Favoritos',
@@ -15,7 +12,7 @@ export default async function FavoritesPage() {
   return (
     <div className="flex flex-col">
       <span className="text-5xl my-2">Pokemones favoritos <small>Global State</small></span>
-      <PokemonsGrid pokemons={[]}></PokemonsGrid>
+      <PokemonsFavorites/>
     </div>
   );
 }
